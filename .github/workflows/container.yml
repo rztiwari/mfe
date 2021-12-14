@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: ubunt-18.04
+    runs-on: ubunt-latest
 
     steps:
       - uses: actions/checkout@v2
