@@ -13,10 +13,10 @@ const devConfig = {
     },
     plugins: [
         new ModuleFederationPlugin ({
-            name: 'marketting',
+            name: 'marketing',
             filename: 'remoteEntry.js',
             exposes: {
-                './MarkettingApp': './src/bootstrap',
+                './MarketingApp': './src/bootstrap',
             },
             shared: ['react', 'react-dom']
         }),

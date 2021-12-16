@@ -15,7 +15,7 @@ const devConfig = {
         new ModuleFederationPlugin({
             name: 'container',
             remotes: {
-                marketting: 'marketting@http://localhost:8081/remoteEntry.js'
+                marketing: 'marketing@http://localhost:8081/remoteEntry.js'
             },
             shared: ['react', 'react-dom']
         })

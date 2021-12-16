@@ -1,10 +1,10 @@
 import React from 'react';
-import MarkettingApp from './components/MarkettingApp';
+import MarketingApp from './components/MarketingApp';
 
 export default () => {
     return <div>
         <h1>Hi there !!</h1>
         <hr />
-        <MarkettingApp />
+        <MarketingApp />
     </div>
 }

@@ -11,9 +11,9 @@ const prodConfig = {
     },
     plugins: [
         new ModuleFederationPlugin({
-            name: 'marketting',
+            name: 'marketing',
             exposes: {
-                './MarkettingApp': './src/bootstrap'
+                './MarketingApp': './src/bootstrap'
             },
             shared: packageJson.dependencies
         })
